@@ -1,0 +1,17 @@
+旧的写法可以从新写法拿到数据,但是新的不能去旧的拿数据。新旧语法可以兼容，但是最好不要vue2
+vue3混着写
+export default{
+  name:"xxxx"
+  date(){
+ return {
+  this.name
+ }
+}
+method:{
+}
+
+setup(){
+  let name="xixi"
+  return xixi
+}
+}
